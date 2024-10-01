@@ -3,6 +3,7 @@ import Dashboard from "../pages/Dashboard";
 import Login from "../pages/Login";
 import App from "../App";
 import Protect from "./Protect";
+import Sales from "../pages/Sales";
 
 const appRouter = createBrowserRouter([
     {
@@ -16,6 +17,10 @@ const appRouter = createBrowserRouter([
             {
                 path: "/",
                 element: <Dashboard />,
+            },
+            {
+                path: "/sales",
+                element: <Sales />,
             },
         ],
     },
